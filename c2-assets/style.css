@@ -1,0 +1,18 @@
+@keyframes fadeScale {
+    0% {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    100% {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+  }
+
+  .infinite-animation {
+    animation: fadeScale 3s infinite ease-in-out;
+  }
